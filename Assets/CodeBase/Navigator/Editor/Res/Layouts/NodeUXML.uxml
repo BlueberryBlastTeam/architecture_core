@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Template name="TestUXML" src="project://database/Assets/CodeBase/Navigator/Editor/Res/Layouts/TestUXML.uxml?fileID=9197481963319205126&amp;guid=7bea18efbeee3f84cbe4b3b697da1a7e&amp;type=3#TestUXML" />
+    <Style src="project://database/Assets/CodeBase/Navigator/Editor/Res/Styles/Node.uss?fileID=7433441132597879392&amp;guid=94e374b030d5f9b478da2422675f3b88&amp;type=3#Node" />
+    <ui:VisualElement name="node-border">
+        <ui:VisualElement name="title">
+            <ui:Label name="title-label" text="type id of new fragment" class="unity-text-element unity-label" style="padding-left: 2px;" />
+            <ui:VisualElement name="title-button-container">
+                <ui:VisualElement name="collapse-button" style="padding-left: 4px; width: 28px;">
+                    <ui:VisualElement name="icon" style="background-image: url(&quot;project://database/Assets/CodeBase/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/TriangleDown.png?fileID=2800000&amp;guid=fd2add38dc259eb49a3e7fc331758b7e&amp;type=3#TriangleDown&quot;); -unity-background-image-tint-color: rgb(255, 255, 255); width: 12px; height: 12px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="contents" style="flex-grow: 1;">
+            <ui:VisualElement name="divider" class="horizontal" style="background-color: rgba(35, 35, 35, 0.8); border-bottom-width: 1px;" />
+            <ui:VisualElement name="top">
+                <ui:VisualElement name="input" style="flex-grow: 1;" />
+                <ui:VisualElement name="divider" class="vertical" style="border-left-color: rgba(35, 35, 35, 0.8); border-right-color: rgba(35, 35, 35, 0.8); border-top-color: rgba(35, 35, 35, 0.8); border-bottom-color: rgba(35, 35, 35, 0.8); border-right-width: 1px;" />
+                <ui:VisualElement name="output" style="flex-grow: 1; background-color: rgba(46, 46, 46, 0.8);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="divider" class="horizontal" style="background-color: rgba(35, 35, 35, 0.8); border-bottom-width: 1px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" />
+    <ui:VisualElement name="collapsible-area" style="flex-grow: 1;">
+        <ui:VisualElement name="extension" class="layout">
+            <ui:Instance template="TestUXML" name="TestUXML" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

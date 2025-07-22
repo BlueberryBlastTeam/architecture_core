@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/CodeBase/Navigator/Editor/Res/Styles/Main.uss?fileID=7433441132597879392&amp;guid=efae9ab269415b24ea2ab2c967425687&amp;type=3#Main" />
+    <uie:Toolbar class="navbar" />
+    <ui:VisualElement class="content-container">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(42, 42, 42); align-items: center; justify-content: center;">
+            <ui:Label tabindex="-1" text="No activity!" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold; font-size: 18px; margin-bottom: 5px;" />
+            <ui:Label tabindex="-1" text="Please, Open an existing Navigation or Create a new one." parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-bottom: 20px;" />
+            <ui:VisualElement style="flex-direction: row;">
+                <ui:Button text="Browse to Open a Navigation" parse-escape-sequences="true" display-tooltip-when-elided="true" name="browse-btn" class="button" />
+                <ui:Button text="Create New Navigation" parse-escape-sequences="true" display-tooltip-when-elided="true" name="create-btn" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

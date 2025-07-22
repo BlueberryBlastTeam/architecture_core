@@ -1,0 +1,31 @@
+.content-container {
+    flex-grow: 1;
+}
+
+.navbar {
+}
+
+.graph-container {
+    flex-grow: 1;
+}
+
+#background {
+    --grid-background-color: rgb(40, 40, 40);
+    --line-color: rgba(193, 196, 192, 0.1);
+    --thick-line-color: rgba(193, 196, 192, 0.1);
+    --spacing: 15;
+    flex-grow: 1;
+}
+
+.button {
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 32px;
+    width: 200px;
+}
+
+#browse-btn {
+}
+
+#create-btn {
+}

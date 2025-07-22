@@ -1,0 +1,110 @@
+.body-node {
+    background-color: rgb(56, 56, 56);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(37, 37, 37);
+    border-right-color: rgb(37, 37, 37);
+    border-top-color: rgb(37, 37, 37);
+    border-bottom-color: rgb(37, 37, 37);
+}
+
+.state-ndoe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    flex-grow: 1;
+}
+
+.header-node {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    -unity-font-style: bold;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: rgb(47, 47, 47);
+}
+
+.content-node {
+    flex-direction: row;
+    margin-top: 6px;
+    margin-right: 3px;
+    margin-bottom: 1px;
+    margin-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+#node-border {
+    border-left-color: rgb(25, 25, 25);
+    border-right-color: rgb(25, 25, 25);
+    border-top-color: rgb(25, 25, 25);
+    border-bottom-color: rgb(25, 25, 25);
+    border-bottom-right-radius: 6px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#title {
+    background-color: rgba(63, 63, 63, 0.8);
+    flex-direction: row;
+    height: 36px;
+    justify-content: space-between;
+}
+
+#title-label {
+    flex-shrink: 0;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.layout {
+    width: 540px;
+    height: 960px;
+}
+
+#top {
+    flex-direction: row;
+    height: 20px;
+}
+
+#title {
+}
+
+#title-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contents {
+    background-color: rgb(56, 56, 56);
+}
